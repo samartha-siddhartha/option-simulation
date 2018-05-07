@@ -22,7 +22,7 @@ from option_simulation import call_table,put_table
 app = dash.Dash(__name__)
  
 VALID_USERNAME_PASSWORD_PAIRS = [
-    ['optionstrade', 'greek@321']   
+    ['samartha', 'greek@321']   
 ]
 app = dash.Dash('auth')
 auth = dash_auth.BasicAuth(

@@ -21,14 +21,14 @@ from option_simulation import call_table,put_table
 
 app = dash.Dash(__name__)
  
-VALID_USERNAME_PASSWORD_PAIRS = [
-    ['optionsim', 'greek@321']   
-]
-app = dash.Dash('auth')
-auth = dash_auth.BasicAuth(
-    app,
-    VALID_USERNAME_PASSWORD_PAIRS
-)
+#VALID_USERNAME_PASSWORD_PAIRS = [
+#    ['optionsim', 'greek@321']   
+#]
+#app = dash.Dash('auth')
+#auth = dash_auth.BasicAuth(
+#    app,
+#    VALID_USERNAME_PASSWORD_PAIRS
+#)
 
 server =app.server
 app.scripts.config.serve_locally = True
